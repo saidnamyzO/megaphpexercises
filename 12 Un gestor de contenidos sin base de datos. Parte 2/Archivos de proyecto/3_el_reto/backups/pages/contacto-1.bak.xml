@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Mon, 02 Nov 2015 12:06:50 +0100</pubDate><title>Contacto [Copiar]</title><url>contacto-1</url><meta></meta><metad></metad><menu>Contacto</menu><menuOrder>4</menuOrder><menuStatus>Y</menuStatus><template>template.php</template><parent></parent><content>&amp;lt;form action=&amp;quot;enviar.php&amp;quot; method=&amp;quot;post&amp;quot;&amp;gt;
+	&amp;lt;header&amp;gt;
+		&amp;lt;p&amp;gt;Puede contactar con nosotros a través de este formulario o mediante el teléfono &amp;lt;a href=&amp;quot;tel:600600600&amp;quot;&amp;gt;600 600 600&amp;lt;/a&amp;gt; o el correo electrónico &amp;lt;a href=&amp;quot;mailto:moises@moises.com?subject=Contacto%20desde%20la%20web%20Mis%20Zapatos%20Favoritos&amp;amp;amp;body=Quisiera%20contactar%20con%20ustedes%20mediante%20la%20web%20Mis%20Zapatos%20Favoritos&amp;quot;&amp;gt;moises@moises.com&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+	&amp;lt;/header&amp;gt;
+	&amp;lt;div&amp;gt;&amp;lt;label class=&amp;quot;desc&amp;quot; for=&amp;quot;Field1&amp;quot; id=&amp;quot;title1&amp;quot;&amp;gt;Nombre&amp;lt;/label&amp;gt;
+		&amp;lt;div&amp;gt;&amp;lt;input class=&amp;quot;field text fn&amp;quot; id=&amp;quot;Field1&amp;quot; name=&amp;quot;nombre&amp;quot; tabindex=&amp;quot;1&amp;quot; type=&amp;quot;text&amp;quot; /&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;/div&amp;gt;
+	&amp;lt;div&amp;gt;&amp;lt;label class=&amp;quot;desc&amp;quot; for=&amp;quot;Field3&amp;quot; id=&amp;quot;title3&amp;quot;&amp;gt;Email&amp;lt;/label&amp;gt;
+		&amp;lt;div&amp;gt;&amp;lt;input class=&amp;quot;field text fn&amp;quot; id=&amp;quot;Field3&amp;quot; name=&amp;quot;email&amp;quot; tabindex=&amp;quot;3&amp;quot; type=&amp;quot;email&amp;quot; /&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;/div&amp;gt;
+	&amp;lt;div&amp;gt;&amp;lt;label class=&amp;quot;desc&amp;quot; for=&amp;quot;Field4&amp;quot; id=&amp;quot;title4&amp;quot;&amp;gt;Mensaje&amp;lt;/label&amp;gt;
+		&amp;lt;div&amp;gt;&amp;lt;textarea cols=&amp;quot;50&amp;quot; id=&amp;quot;Field4&amp;quot; name=&amp;quot;mensaje&amp;quot; rows=&amp;quot;10&amp;quot; tabindex=&amp;quot;4&amp;quot; type=&amp;quot;email&amp;quot;&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;/div&amp;gt;
+	&amp;lt;div&amp;gt;
+		&amp;lt;div&amp;gt;&amp;lt;input id=&amp;quot;enviar&amp;quot; name=&amp;quot;enviar&amp;quot; type=&amp;quot;submit&amp;quot; value=&amp;quot;Enviar&amp;quot; /&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;/div&amp;gt;
+&amp;lt;/form&amp;gt;
+&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;
+</content><private></private><author>moises</author></item>

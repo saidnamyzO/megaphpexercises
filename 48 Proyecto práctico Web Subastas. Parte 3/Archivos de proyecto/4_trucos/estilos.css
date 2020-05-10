@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:rgba(235,235,235,1.00);
+}
+
+.container{
+	width:80%;
+	max-width:900px;
+	background:#fff;
+	margin:0 auto;
+	border-top:8px solid rgba(252,47,69,1.00);
+	padding-bottom:1.5em;
+}
+
+.clearfix{
+	clear:both;
+}
+
+header{
+	width:100%;
+	max-height:150px;
+	float:left;
+	margin-bottom:1em;
+}
+
+header h1{
+	margin-left:1em;
+	width:30%;
+	float:left;
+}
+
+header h1 img{
+	height:140px;
+}
+
+header h2{
+	float:right;
+	margin:2em 2em 0 0;
+	color:rgba(252,47,69,1.00);
+	font-size:1.5em;
+	font-weight:lighter;
+}
+
+/* ASIDE */
+aside{
+	width:35%;
+	float:left;
+	padding:0 2em 0 2em;
+	box-sizing:border-box;
+}
+
+aside img{
+	width:100%;
+	border:2px solid rgba(95,95,95,1.00);
+}
+
+/*ASIDE ZONA PRIVADA*/
+aside.menu{
+	width:25%;
+	float:left;
+	padding:0 2em 0 2em;
+	box-sizing:border-box;
+	min-height:400px;
+}
+
+aside.menu nav, aside.menu ul{
+	width:100%;
+}
+
+aside.menu nav ul li{
+	margin-bottom:5px;
+	font-size:0.9em;
+	list-style:none;
+}
+
+aside.menu nav ul li a{
+	text-decoration:none;
+	color: rgba(88,88,88,1.00);
+	list-style:none;
+}
+
+aside.menu nav ul li a:hover{
+	text-decoration:underline;
+}
+
+aside.menu nav ul li strong{
+	color: rgba(252,47,69,1.00);
+	font-weight:normal;
+}
+aside.menu nav ul li.ultimo{
+	padding-bottom:10px;
+	border-bottom:1px solid rgba(178,178,178,1.00);
+	margin-bottom:15px;
+}
+
+
+/* DERECHA */
+.derecha{
+	width:65%;
+	float:left;
+	box-sizing:border-box;
+}
+
+.derecha.privado{
+	width:75%;
+	float:left;
+	box-sizing:border-box;
+}
+
+.derecha article, .derecha_privado{
+	width:92%;
+}
+
+.derecha article p, .derecha_privado article p{
+	font-size:1em;
+	color: rgba(95,95,95,1.00);
+	line-height:1.2em;
+	text-align:justify;
+	margin-bottom:1.1em;
+}
+
+.derecha article h3, .derecha_privado article h3{
+	color:rgba(95,95,95,1.00);
+	font-size:1.3em;
+	font-weight:normal;
+	margin-bottom:1.1em;
+}
+
+.derecha article p strong, .derecha_privado article p strong{
+	color:rgba(252,47,69,1.00);
+}
+
+/* FORMULARIO LOGIN */
+
+.derecha article form{
+	width:60%;
+	margin:0 auto;
+	background:rgba(170,170,170,1.00);
+	box-sizing:border-box;
+	padding:1em;
+}
+
+.derecha article form input{
+	width:90%;
+	font-size:1em;
+	padding:0.3em 0.5em;
+	background:#fff;
+	border:none;
+	margin-bottom:10px;
+}
+
+.derecha article form input[type=submit]{
+	width:50%;
+	background:rgba(95,95,95,1.00);
+	color:#fff;
+}
+
+a.olvide{
+	color:#fff;
+	font-size:0.8em;
+}
+
+.olvide{
+	color:#fff;
+	font-size:0.8em;
+}
+
+/* FORMULARIO REGISTRO */
+.derecha article form.registro{
+	width:90%;
+	margin:0 auto;
+	background:rgba(170,170,170,1.00);
+	box-sizing:border-box;
+	padding:1em;
+}
+
+/* FOOTER */
+footer{
+	width:100%;
+	margin-top:3em;
+}
+footer p{
+	text-align:center;
+	color: rgba(95,95,95,1.00);
+}
+
+.aviso{
+	color: rgba(252,47,69,1.00);
+	text-align:center;
+}
+
+
+
+
+

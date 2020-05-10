@@ -1,0 +1,71 @@
+<?php 
+
+class Fecha {
+	
+	private $dia;
+	private $mes;
+	private $anio;
+	
+	//Función constructor
+	function __construct($dia_ext,$mes_ext,$anio_ext){
+		$this->dia = $dia_ext;
+		$this->mes = $mes_ext;
+		$this->anio = $anio_ext;
+	}
+	
+	//GETTER Y SETTER
+	public function setDia($dia_ext){
+		$this->dia = $dia_ext;
+	}
+	
+	public function getDia(){
+		return $this->dia;
+	}
+	
+	public function setMes($mes_ext){
+		$this->mes = $mes_ext;
+	}
+	
+	public function getMes(){
+		return $this->mes;
+	}
+	
+	public function setAnio($anio_ext){
+		$this->anio = $anio_ext;
+	}
+	
+	public function getAnio(){
+		return $this->anio;
+	}
+	
+	//Mostrar el objeto como un String
+	public function toString(){
+	$resultado = $this->dia.'-';
+	$resultado .= $this->mes.'-';
+	$resultado .= $this->anio;
+	return $resultado;
+	}
+	
+	//Transformamos el formato de la fecha al inglés
+	public function formatea(){
+		$fecha = $this->anio.'-'.$this->mes.'-'.$this->dia;
+		return $fecha;
+	}
+	
+	public function calculaEdad($fecha){
+		$dias = (strtotime($fecha)-strtotime(time()))/86400;
+		$dias = abs($dias); $dias = floor($dias);
+		$years = floor($dias/365);
+		return $years;
+	}
+	
+}
+
+?>
+
+
+
+
+
+
+

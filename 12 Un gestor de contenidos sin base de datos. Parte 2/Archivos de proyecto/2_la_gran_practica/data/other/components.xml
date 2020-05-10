@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel><item><title><![CDATA[Sidebar]]></title><slug>sidebar</slug><value><![CDATA[&lt;h2&gt;Lo que dicen en Facebook&lt;/h2&gt;
+ &lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;
+&lt;script&gt;(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = &quot;//connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v2.5&quot;;
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, &#039;script&#039;, &#039;facebook-jssdk&#039;));&lt;/script&gt;
+&lt;div class=&quot;fb-page&quot; data-href=&quot;https://www.facebook.com/losmegacursos/&quot; data-width=&quot;250&quot; data-height=&quot;400&quot; data-small-header=&quot;true&quot; data-adapt-container-width=&quot;true&quot; data-hide-cover=&quot;false&quot; data-show-facepile=&quot;true&quot; data-show-posts=&quot;true&quot;&gt;&lt;div class=&quot;fb-xfbml-parse-ignore&quot;&gt;&lt;blockquote cite=&quot;https://www.facebook.com/losmegacursos/&quot;&gt;&lt;a href=&quot;https://www.facebook.com/losmegacursos/&quot;&gt;Losmegacursos.com&lt;/a&gt;&lt;/blockquote&gt;&lt;/div&gt;&lt;/div&gt;]]></value></item><item><title><![CDATA[Tagline]]></title><slug>tagline</slug><value><![CDATA[Just Another GetSimple Website]]></value></item></channel>

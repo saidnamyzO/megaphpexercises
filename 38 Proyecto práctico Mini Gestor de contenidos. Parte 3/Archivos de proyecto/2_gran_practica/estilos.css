@@ -1,0 +1,306 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:#e2e2e2;
+}
+
+.container{
+	width:900px;
+	margin:0 auto;
+	background:#fff;
+	padding-bottom:2em;
+}
+
+.clearfloat{
+	clear:both;
+}
+
+header{
+	min-height:150px;
+	box-sizing:border-box;
+}
+
+h1{
+	float:left;
+	font-size:2em;
+	font-weight:lighter;
+	margin:1.5em 0 0 2em;
+	
+}
+
+.float-right{
+	float:right;
+	width:70px;
+	margin-top:1em;
+}
+
+.float-right ul{
+	list-style:none;
+	
+}
+
+.float-right ul li{
+	float:left;
+	margin-right:2px;
+}
+
+.float-right ul li:hover{
+	opacity:0.7;
+}
+nav{
+	width:100%;
+}
+
+nav ul{
+	width:100%;
+	list-style:none;
+}
+
+nav ul li{
+	width:25%;
+	float:left;
+}
+
+nav ul li a{
+	display:block;
+	padding:0.6em 0;
+	background:rgba(194,198,36,1.00);
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+}
+
+nav ul li a.active, nav ul li a:hover{
+	background:rgba(107,107,107,1.00);
+}
+
+nav.privado{
+	width:100%;
+}
+
+nav.privado ul{
+	width:100%;
+	list-style:none;
+}
+
+nav.privado ul li{
+	width:100%;
+	float:none;
+}
+nav.privado ul li a{
+	display:block;
+	padding:0.6em 0;
+	text-align:left;
+	text-decoration:none;
+	color:rgba(194,198,36,1.00);
+	background:none;
+}
+
+section{
+	width:90%;
+	margin:20px auto;
+}
+
+.texto{
+	width:80%;
+	float:right;
+}
+
+.texto p{
+	margin:15px 0 0 0;
+	color:rgba(107,107,107,1.00);
+	line-height:1.3em;
+	text-align:justify;
+}
+
+
+article{
+	width:32.5%;
+	float:left;
+	box-sizing:border-box;
+	margin-right:0.82%;
+	position:relative;
+	min-height:413px;
+}
+
+article:last-child{
+	margin-right:none;
+}
+
+article a img{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+	border:4px solid rgba(169,169,169,1.00);
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10;
+}
+
+.boton1{
+	width:214px;
+	height:413px;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:url(images/home/print_btn.png) no-repeat bottom;
+	z-index:100;
+	opacity:0;
+}
+.boton2{
+	width:214px;
+	height:413px;
+	position:absolute;
+	left:0px;
+	bottom:0px;	
+	background:url(images/home/digital_btn.png) no-repeat bottom;
+	z-index:100;
+	opacity:0;
+}
+.boton3{
+	width:214px;
+	height:413px;
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	background:url(images/home/move_btn.png) no-repeat bottom;
+	z-index:100;
+	opacity:0;	
+}
+.boton1:hover{
+	opacity:1;
+}
+.boton2:hover{
+	opacity:1;
+}
+.boton3:hover{
+	opacity:1;
+}
+
+/* FOMULARIO ACCESO PRIVADO */
+
+.formulario_acceso{
+	width:250px;
+	padding:1.5em;
+	box-sizing:border-box;
+	background:rgba(198,234,177,1.00);
+	margin:0 auto;
+}
+
+.formulario_acceso input, .formulario_acceso label{
+	width:100%;
+	border:none;
+	font-size:1em;
+	color:rgba(74,158,41,1.00);
+	margin-bottom:10px;
+}
+.formulario_acceso input{
+	padding:0.3em 0.6em;
+	box-sizing:border-box;
+	background:#fff;
+}
+.formulario_acceso input[type=submit]{
+	width:50%;
+	background:rgba(74,158,41,1.00);
+	color:#fff;
+}
+.error{
+	text-align:center;
+	color:red;
+}
+
+/* PÁGINA EDITAR HOME */
+
+aside{
+	width:20%;
+	float:left;
+	border-right:1px solid rgba(78,78,78,1.00);
+	box-sizing:border-box;
+}
+
+aside nav{
+	width:100%;
+}
+
+aside nav ul {
+	width:100%;
+	list-style:none;
+}
+
+aside nav ul li{
+	color:rgba(78,78,78,1.00);
+	margin:10px 0 0 0;
+}
+
+aside nav ul li a{
+	color:rgba(78,78,78,1.00);
+	text-decoration:none;
+}
+
+aside nav ul li a:hover{
+	text-decoration:underline;
+}
+
+article.principal{
+	width:78%;
+	float:left;
+	box-sizing:border-box;
+}
+
+article.principal .foto_portada{
+	width:33%;
+	float:left;
+	box-sizing:border-box;
+	padding:0 0.5em;
+	min-height:500px;
+}
+
+article.principal .foto_portada img{
+	width:100%;
+}
+
+/* BACKEND */
+h2{
+	font-size:1.3em;
+	font-weight:lighter;
+	color:rgba(78,78,78,1.00);
+	text-align:center;
+	margin-bottom:20px;
+	
+}
+
+form.avisolegal{
+	margin-left:20px;
+}
+form.avisolegal label{
+	font-size:0.9em;
+	font-weight:bold;
+	color:#000;
+}
+form.avisolegal textarea{
+	margin-bottom:20px !important;
+	font-size:1em;
+	color:#2E65BB;
+	padding:0.5em;
+	box-sizing:border-box;
+}
+form.avisolegal input[type=submit]{
+	background:rgba(96,96,96,1.00);
+	color:#fff;
+	border:none;
+	width:150px;
+	font-size:1em;
+	padding:0.3em 0;
+}
+
+
+
+

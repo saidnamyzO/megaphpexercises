@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+	<url>
+		<titulo>PHP Asombroso</titulo>
+		<loc>http://miblog.com/php-asombroso</loc>
+		<autor>Moises</autor>
+		<lastmode>2016-05-14</lastmode>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<titulo>jQuery para todos los publicos</titulo>
+		<loc>http://miblog.com/jquery-para-todos-los-publicos</loc>
+		<autor>Juan</autor>
+		<lastmode>2016-09-14</lastmode>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<titulo>HTML y CSS: la base de una web profesional</titulo>
+		<loc>http://miblog.com/html-y-css</loc>
+		<autor>Raul</autor>
+		<lastmode>2016-09-21</lastmode>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url></urlset>

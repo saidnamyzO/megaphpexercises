@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Recupera el Password</title>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:rgba(235,235,235,1.00);
+}
+section{
+	width:400px;
+	height:200px;
+	padding:1em;
+	box-sizing:border-box;
+}
+h1{
+	width:30%;
+	float:left;
+}
+h1 img{
+	width:100%;
+}
+p{
+	color: rgba(252,47,69,1.00);
+	font-size:1em;
+	text-align:center;
+	float:left;
+	width:65%;
+	padding:1em;
+	box-sizing:border-box;
+}
+input{
+	width:90%;
+	background:#fff;
+	border:none;
+	font-size:1em;
+	padding:0.3em 0.5em;
+	margin-top:20px;
+}
+input[type=submit]{
+	background:rgba(118,118,118,1.00);
+	color:#fff;
+}
+</style>
+</head>
+
+<body>
+<section>
+<h1><img src="images/logo.jpg" alt="Web Subastas"/></h1>
+<form action="enviar_datos.php" method="post">
+	<p>Por favor, introduce tu dirección de correo electrónico y te enviaremos los datos de acceso.</p>
+    <input type="text" name="email" id="email"/>
+    <input type="submit" value="enviar"/>
+</form>
+</section>
+</body>
+</html>

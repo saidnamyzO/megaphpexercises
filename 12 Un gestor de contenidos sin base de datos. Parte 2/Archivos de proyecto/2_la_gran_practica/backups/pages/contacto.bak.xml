@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Mon, 02 Nov 2015 11:49:11 +0100</pubDate><title><![CDATA[Contacto]]></title><url><![CDATA[contacto]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Contacto]]></menu><menuOrder><![CDATA[4]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;form action=&quot;enviar.php&quot; method=&quot;post&quot;&gt;
+	&lt;header&gt;
+		&lt;p&gt;Puede contactar con nosotros a través de este formulario o mediante el teléfono &lt;a href=&quot;tel:600600600&quot;&gt;600 600 600&lt;/a&gt; o el correo electrónico &lt;a href=&quot;mailto:moises@moises.com?subject=Contacto%20desde%20la%20web%20Mis%20Zapatos%20Favoritos&amp;amp;body=Quisiera%20contactar%20con%20ustedes%20mediante%20la%20web%20Mis%20Zapatos%20Favoritos&quot;&gt;moises@moises.com&lt;/a&gt;.&lt;/p&gt;
+	&lt;/header&gt;
+	&lt;div&gt;&lt;label class=&quot;desc&quot; for=&quot;Field1&quot; id=&quot;title1&quot;&gt;Nombre&lt;/label&gt;
+		&lt;div&gt;&lt;input class=&quot;field text fn&quot; id=&quot;Field1&quot; name=&quot;Field1&quot; tabindex=&quot;1&quot; type=&quot;text&quot; /&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div&gt;&lt;label class=&quot;desc&quot; for=&quot;Field3&quot; id=&quot;title3&quot;&gt;Email&lt;/label&gt;
+		&lt;div&gt;&lt;input class=&quot;field text fn&quot; id=&quot;Field3&quot; name=&quot;Field3&quot; tabindex=&quot;3&quot; type=&quot;email&quot; /&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div&gt;&lt;label class=&quot;desc&quot; for=&quot;Field4&quot; id=&quot;title4&quot;&gt;Mensaje&lt;/label&gt;
+		&lt;div&gt;&lt;textarea cols=&quot;50&quot; id=&quot;Field4&quot; name=&quot;Field4&quot; rows=&quot;10&quot; tabindex=&quot;4&quot; type=&quot;email&quot;&gt;&lt;/textarea&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;div&gt;&lt;input id=&quot;enviar&quot; name=&quot;enviar&quot; type=&quot;submit&quot; value=&quot;Enviar&quot; /&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/form&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[moises]]></author></item>
